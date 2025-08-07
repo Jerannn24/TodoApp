@@ -17,7 +17,15 @@ const App = () => {
   return (
     <div id='divBody' >
       <div id='title'>ToDo List</div>
-      <div id='divTodo'></div>
+      <div id='divTodo'>
+        <input
+          id="textInput"
+          placeholder={editIndex !== null ? "Edit Item..." : "Add Item"}
+          value={userinput}
+          onChange={(e) => updateInput(e.target.value)}>
+        </input>
+        <button id="button" >{editIndex !== null ? "Update" : "Add"}</button>
+      </div>
     </div >
   )
 }
