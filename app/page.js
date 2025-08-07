@@ -15,7 +15,10 @@ const App = () => {
 
   }
   return (
-    <div style={{ fontSize: '35px', }}>To Do List</div>
+    <div id='divBody' >
+      <div id='title'>ToDo List</div>
+      <div id='divTodo'></div>
+    </div >
   )
 }
 
