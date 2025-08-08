@@ -45,7 +45,7 @@ A simple and responsive ToDo List web app built using **React (Next.js)**. Users
 ## 🧠 Project Structure
 
 ```
-todo-list-app/
+TodoApp/
 ├── app/
 │   └── page.jsx         # Main ToDo App Component
 ├── public/
