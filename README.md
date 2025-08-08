@@ -2,7 +2,6 @@ Berikut adalah contoh file `README.md` untuk ToDo List App berbasis Next.js + Re
 
 ---
 
-````markdown
 # 📝 ToDo List App
 
 A simple and responsive ToDo List web app built using **React (Next.js)**. Users can add, edit, and delete tasks dynamically.
@@ -33,7 +32,7 @@ A simple and responsive ToDo List web app built using **React (Next.js)**. Users
    ```bash
    git clone https://github.com/yourusername/todo-list-app.git
    cd todo-list-app
-````
+
 
 2. **Install dependencies**
 
