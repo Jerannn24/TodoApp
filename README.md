@@ -1,38 +1,112 @@
+Berikut adalah contoh file `README.md` untuk ToDo List App berbasis Next.js + React:
 
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+---
 
-## Getting Started
+````markdown
+# 📝 ToDo List App
 
-First, run the development server:
+A simple and responsive ToDo List web app built using **React (Next.js)**. Users can add, edit, and delete tasks dynamically.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+## 🚀 Features
+
+- ✅ Add new tasks
+- 🛠️ Edit existing tasks
+- ❌ Delete tasks
+- 🔄 Clear input after action
+- 💾 Maintains a dynamic list using React `useState`
+- 📱 Fully responsive and beginner-friendly code
+
+## 🛠️ Tech Stack
+
+- [Next.js](https://nextjs.org/) (App Router)
+- [React](https://react.dev/)
+- HTML + CSS (custom or Tailwind ready)
+- JavaScript (No TypeScript)
+
+## 🖥️ Screenshots
+
+![ToDo List Screenshot](screenshot.png) <!-- (Add screenshot if available) -->
+
+## 📦 Installation & Setup
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/yourusername/todo-list-app.git
+   cd todo-list-app
+````
+
+2. **Install dependencies**
+
+   ```bash
+   npm install
+   ```
+
+3. **Run the development server**
+
+   ```bash
+   npm run dev
+   ```
+
+4. Open [http://localhost:3000](http://localhost:3000) in your browser 🚀
+
+## 🧠 Project Structure
+
+```
+todo-list-app/
+├── app/
+│   └── page.jsx         # Main ToDo App Component
+├── public/
+│   └── ...
+├── styles/
+│   └── globals.css      # Optional CSS Styling
+├── package.json
+└── README.md
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 📄 Code Highlights
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+```js
+const [userInput, setUserInput] = useState('');
+const [list, setList] = useState([]);
+const [editIndex, setEditIndex] = useState(null);
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+* `handleAction()` handles **add/edit** logic.
+* `deleteList()` removes item by `id`.
+* `startEdit()` loads item into input box for editing.
 
-## Learn More
+## 🤓 Learnings
 
-To learn more about Next.js, take a look at the following resources:
+This project reinforces:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+* React state management (`useState`)
+* Handling form inputs
+* Conditional rendering
+* List rendering with `.map()`
+* Managing unique keys with `Math.random()` (for demo)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 📌 To Do
 
-## Deploy on Vercel
+* [ ] Add local storage to persist tasks
+* [ ] Add completion status (Done/Undone)
+* [ ] Add filtering (All, Active, Completed)
+* [ ] Improve UI with Tailwind or Bootstrap
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 🤝 Contributing
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
->>>>>>> 9d67fe2 (Initial commit from Create Next App)
+Pull requests are welcome. For major changes, please open an issue first.
+
+## 📄 License
+
+This project is open source and available under the [MIT License](LICENSE).
+
+---
+
+Built with ❤️ by \[Your Name]
+
+```
+
+---
+
+Kalau kamu ingin aku bantu generate `README.md` dalam bentuk file langsung (siap download), tinggal bilang saja.
+```
