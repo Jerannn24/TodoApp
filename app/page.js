@@ -39,6 +39,7 @@ const App = () => {
     setUserInput(list[index].value);
     setEditIndex(index);
   }
+  
   return (
     <div id='divBody' >
       <div id='title'>ToDo List</div>
