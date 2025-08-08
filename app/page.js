@@ -29,6 +29,15 @@ const App = () => {
     }
     setUserInput('');
   }
+
+  const deleteList = () => {
+
+  }
+
+  const startEdit = (index) => {
+    setUserInput(List[index].value);
+    setEditIndex(index);
+  }
   return (
     <div id='divBody' >
       <div id='title'>ToDo List</div>
@@ -42,6 +51,20 @@ const App = () => {
         </input>
 
         <button id="button" onClick={handleAction}>{editIndex !== null ? "Update" : "Add"}</button>
+      </div>
+      <div id='divList'>
+        {list.length > 0 ? (
+          list.map((item, index) => (
+            <div id='divSet' key={item.id}>
+              <span id="spanSet">
+                {item.value}
+              </span>
+              <span>
+                
+              </span>
+            </div>
+          ))
+        ) : (<p>TSB</p>)}
       </div>
     </div >
   )

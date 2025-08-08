@@ -71,3 +71,21 @@ body {
 #button:active {
   transform: scale(0.90);
 }
+
+#divList {
+  background-color: #c4c4c4;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+#divSet {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+#spanSet {
+  font-size: 1.2rem;
+  flex-grow: 1;
+}
