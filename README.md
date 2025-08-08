@@ -25,7 +25,7 @@ A simple and responsive ToDo List web app built using **React (Next.js)**. Users
 1. **Clone the repository**
    ```bash
    git clone https://github.com/jerannn24/TodoApp.git
-   cd todo-list-app
+   cd TodoApp
 
 
 2. **Install dependencies**
