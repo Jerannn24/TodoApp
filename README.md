@@ -98,8 +98,3 @@ This project is open source and available under the [MIT License](LICENSE).
 Built with ❤️ by Jerannn24
 
 ```
-
----
-
-Kalau kamu ingin aku bantu generate `README.md` dalam bentuk file langsung (siap download), tinggal bilang saja.
-```
