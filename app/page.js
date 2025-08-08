@@ -30,12 +30,13 @@ const App = () => {
     setUserInput('');
   }
 
-  const deleteList = () => {
-
+  const deleteList = (id) => {
+    const updateList = list.filter((item) => item.id != id);
+    setList(updateList);
   }
 
   const startEdit = (index) => {
-    setUserInput(List[index].value);
+    setUserInput(list[index].value);
     setEditIndex(index);
   }
   return (
@@ -59,12 +60,20 @@ const App = () => {
               <span id="spanSet">
                 {item.value}
               </span>
-              <span>
-                
+              <span id='editDelete'>
+                <button id='editItem' onClick={() => startEdit(index)}>
+                  Edit
+                </button>
+                <button id='deleteItem' onClick={() => deleteList(item.id)}>
+                  Delete
+                </button>
               </span>
             </div>
           ))
-        ) : (<p>TSB</p>)}
+        ) : (
+          <div id='divNo'>
+            No items in the list
+          </div>)}
       </div>
     </div >
   )

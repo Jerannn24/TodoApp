@@ -64,12 +64,28 @@ body {
   cursor: pointer;
 }
 
+#button:active {
+  transform: scale(0.90);
+}
+
+#editItem:active {
+  transform: scale(0.90);
+}
+
+#deleteItem:active {
+  transform: scale(0.90);
+}
+
 #button:hover {
   background-color: #30502f;
 }
 
-#button:active {
-  transform: scale(0.90);
+#editItem:hover {
+  background-color: #7e9800;
+}
+
+#deleteItem:hover {
+  background-color: #af132d;
 }
 
 #divList {
@@ -88,4 +104,28 @@ body {
 #spanSet {
   font-size: 1.2rem;
   flex-grow: 1;
+}
+
+#editItem {
+  padding: 10px;
+  background-color: rgb(238, 238, 118);
+  color: #f9f9f9;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+#deleteItem {
+  padding: 10px;
+  background-color: rgb(248, 84, 84);
+  color: #f9f9f9;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+#divNo {
+  text-align: center;
+  font-size: 1.2rem;
+  color: #777;
 }
