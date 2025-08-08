@@ -1,5 +1,3 @@
-Berikut adalah contoh file `README.md` untuk ToDo List App berbasis Next.js + React:
-
 ---
 
 # 📝 ToDo List App
@@ -22,15 +20,11 @@ A simple and responsive ToDo List web app built using **React (Next.js)**. Users
 - HTML + CSS (custom or Tailwind ready)
 - JavaScript (No TypeScript)
 
-## 🖥️ Screenshots
-
-![ToDo List Screenshot](screenshot.png) <!-- (Add screenshot if available) -->
-
 ## 📦 Installation & Setup
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/yourusername/todo-list-app.git
+   git clone https://github.com/jerannn24/TodoApp.git
    cd todo-list-app
 
 
@@ -101,7 +95,7 @@ This project is open source and available under the [MIT License](LICENSE).
 
 ---
 
-Built with ❤️ by \[Your Name]
+Built with ❤️ by Jerannn24
 
 ```
 
